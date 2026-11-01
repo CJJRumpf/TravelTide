@@ -41,3 +41,8 @@ dist/
 # Temporary files
 *.tmp
 *.bak
+
+# Project data - never commit data files to GitHub
+data/input/
+data/working/
+data/output/
