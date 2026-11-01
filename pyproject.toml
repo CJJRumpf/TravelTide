@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traveltide"
+version = "0.1.0"
+description = "TravelTide – Data Analytics Project"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "psycopg[binary]",
+    "python-dotenv",
+    "jupyter",
+    "ipykernel"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
