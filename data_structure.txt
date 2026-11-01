@@ -1,0 +1,10 @@
+data/
+├── input/
+│   └── original/
+├── working/
+│   ├── cleaning/
+│   ├── transformations/
+│   └── analysis/
+└── output/
+    ├── final_datasets/
+    └── reports/
